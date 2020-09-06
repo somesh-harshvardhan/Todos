@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Recursive', sans-serif; ;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background:#dddddd ;
+}
+.header{
+  padding: 15px;
+  background: #fff591;
+  font-size: 2rem;
+  padding-left: 7%;
+  text-transform: uppercase;
+
+}
+.listcreate-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+form.createnode{
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.input-title{
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+.textarea{
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.createnode button{
+  position: absolute;
+  right: 10px;
+  bottom: -15px;
+  background-color: #fff591;
+  cursor: pointer;
+
+}
+.node-section{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background: none;
+  margin-left: 80px;
+}
+.node{
+  display: flex;
+  height: 150px;
+  margin: 20px;
+  min-width: 300px;
+  border-radius: 10px;
+  justify-content: center;
+  background:#fff ;
+  box-shadow:0 1px 5px rgb(138, 137, 137); 
+  position: relative;
+  font-family: inherit;
+}
+.node h1,.node p{
+  padding: 5px;
+  display: block;
+  text-align: center;
+  
+}
+.cell{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.DeleteButton{
+  padding:7px ;
+  border-radius: 50px;
+  font-size: 5px;
+  background-color: #fff691fb;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  bottom: 0;
+  box-shadow: 0 1px 5px rgb(138, 137, 137); ;
+}
+.CheckButton{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  
+}
+
+.DeleteButton:hover{
+ background-color: #ffb491fb;
+}
